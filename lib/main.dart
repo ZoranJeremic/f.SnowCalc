@@ -143,7 +143,7 @@ class _CalculatorState extends State<Calculator> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Calculator'),
+        title: const Text('f.SnowCalc'),
         backgroundColor: Colors.grey[900],
       ),
       drawer: Drawer(
