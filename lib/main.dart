@@ -239,7 +239,7 @@ class _CalculatorState extends State<Calculator> {
                     builder: (context) => AlertDialog(
                       title: const Text('f.Snowcalc'),
                       content: const Text(
-                        'A cool calculator app made with Flutter! 🚀\n\n'
+                        'More than calculator.'
                         'Features:\n'
                         '• Basic calculations\n'
                         '• Scientific functions\n'
@@ -249,7 +249,7 @@ class _CalculatorState extends State<Calculator> {
                       actions: [
                         TextButton(
                           onPressed: () => Navigator.pop(context),
-                          child: const Text('Cool!'),
+                          child: const Text(''),
                         ),
                       ],
                     ),
