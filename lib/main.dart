@@ -168,7 +168,7 @@ class _CalculatorState extends State<Calculator> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     const Text(
-                      'Calculator Menu',
+                      'Menu',
                       style: TextStyle(
                         color: Colors.white,
                         fontSize: 24,
@@ -177,7 +177,7 @@ class _CalculatorState extends State<Calculator> {
                     ),
                     const SizedBox(height: 10),
                     Text(
-                      'Made with 💜 for bros',
+                      '(c) 2025 Flake.',
                       style: TextStyle(
                         color: Colors.grey[400],
                         fontSize: 14,
