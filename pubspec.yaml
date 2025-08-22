@@ -1,0 +1,37 @@
+name: Sentence
+description: Just a calculator and nothing more.
+version: 1.0.1+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+dependencies:
+  google_fonts: ^6.2.1
+  easy_localization: ^3.0.7+1
+  dynamic_color: ^1.7.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_launcher_icons: ^0.14.3
+  flutter_quill: ^11.4.1
+  flutter_quill_extensions: ^11.0.0
+  quill_delta: ^3.0.0-nullsafety.2
+  shared_preferences: ^2.5.3
+  image_picker: ^1.0.7
+  file_picker: ^10.1.9
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.0
+  flutter_speed_dial: ^6.2.0
+  animations: ^2.0.11
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/lang/
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
