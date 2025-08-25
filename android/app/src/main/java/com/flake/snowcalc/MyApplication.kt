@@ -1,4 +1,4 @@
-package com.vasa_aplikacija
+package com.flake.snowcalc
 
 import io.flutter.app.FlutterApplication
 import io.flutter.plugin.common.PluginRegistry
